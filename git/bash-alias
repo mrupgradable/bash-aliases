@@ -58,6 +58,11 @@ function _git_push_fork_branch {
     
     # get input y/N to delete branch
     _git_delete_branch ${WORKING_BRANCH}
+    
+    # pull the latest changes (switched to master already)
+    echo -e "\033[33m PROGRESS... \033[0m attempting to pull latest changes from master"
+    git pull
+    echo -e "\033[32m SUCCESS! \033[0m latest changed pulled from master"
   fi
 }
 
