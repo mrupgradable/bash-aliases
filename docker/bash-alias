@@ -1,0 +1,18 @@
+# docker related
+
+# basic
+alias di="docker images"
+alias dp="docker ps"
+
+# docker images
+alias di-del="docker image rm $1"
+
+# docker containers (a.k.a processes)
+alias dp-del="docker rm $1"
+alias dp-stop="docker container stop $1"
+alias dp-shell='function _docker_run_in() { docker exec -it $1 /bin/sh; unset -f _docker_run_in; }; _docker_run_in'
+
+# docker compose
+alias dc-up="docker compose up"
+alias dc-down="docker compose down"
+
