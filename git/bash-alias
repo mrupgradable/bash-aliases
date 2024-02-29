@@ -4,7 +4,14 @@
 alias gs="git status"
 alias ga="git add ."
 alias gp="git push"
+
+# git commit
 alias gc="git commit -m $1"
+alias gcs="git commit -S -m $1"
+
+GIT_SIGN_PGP_KEY_ID="9A28AC27AF8C5A91"
+alias gcs-on="git config --local commit.gpgsign true; git config --local gpg.program $(which gpg); git config --local user.signingKey ${GIT_SIGN_PGP_KEY_ID}"
+alias gcs-off="git config --local commit.gpgsign false"
 
 # git log
 alias gl="git log"
