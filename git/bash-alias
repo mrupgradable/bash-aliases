@@ -4,6 +4,9 @@
 alias gs="git status"
 alias ga="git add ."
 alias gp="git push"
+alias gb="git branch -l"
+alias gbc="git checkout -b $1"
+alias gb-del="git branch -d $1"
 
 # git commit
 alias gc="git commit -m $1"
@@ -16,3 +19,46 @@ alias gcs-off="git config --local commit.gpgsign false"
 # git log
 alias gl="git log"
 alias glo="git log --oneline"
+
+# git forks
+function _git_delete_branch {
+  BRANCH_TO_DELETE=$1
+  echo "Do you want to delete branch:'${BRANCH_TO_DELETE}'?"
+  select yn in "Yes" "No"; do
+    case $yn in
+      Yes ) 
+        echo -e "\033[33m PROGRESS... \033[0m attempting to delete branch '${BRANCH_TO_DELETE}'"
+        git branch -d ${BRANCH_TO_DELETE}
+        echo -e "\033[32m SUCCESS! \033[0m '${WORKING_BRANCH}' deleted"
+        break
+        ;;
+      No ) 
+        break
+        ;;
+    esac
+  done
+}
+
+function _git_push_fork_branch {
+  WORKING_BRANCH=$(git branch --show-current)
+  if [ ${WORKING_BRANCH} == 'master' ]
+  then
+    # show error if still on master
+    echo -e "\033[31m ERROR! \033[0m You're still on master! change to branch"
+  else
+    # push branch to origin (fork)
+    echo -e "\033[33m PROGRESS... \033[0m attempting to push '${WORKING_BRANCH}' to fork"
+    git push -u origin ${WORKING_BRANCH}
+    echo -e "\033[32m SUCCESS! \033[0m '${WORKING_BRANCH}' pushed to fork"
+    
+    # switch back to master
+    echo -e "\033[33m PROGRESS... \033[0m attempting to switch from '${WORKING_BRANCH}' to master"
+    git switch master
+    echo -e "\033[32m SUCCESS! \033[0m switched back to master"
+    
+    # get input y/N to delete branch
+    _git_delete_branch ${WORKING_BRANCH}
+  fi
+}
+
+alias gp-fb="_git_push_fork_branch"
