@@ -1,0 +1,6 @@
+# link to bash scripts
+
+BASH_SCRIPTS_DIR=~/bash-scripts
+
+export PATH=${BASH_SCRIPTS_DIR}/web/:$PATH
+
