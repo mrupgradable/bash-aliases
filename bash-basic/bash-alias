@@ -1,0 +1,11 @@
+# top level link for this dir aliases
+#
+# !! 1. assumes BASH_ALIASES_DIR has already been set !!
+# !! 2. assumes this dir is bash-basic (check BASH_BASIC_ALIASES_DIR) !!
+
+BASH_BASIC_ALIASES_DIR="${BASH_ALIASES_DIR}/bash-basic"
+
+# bash ls
+. ${BASH_BASIC_ALIASES_DIR}/bash-ls
+
+echo "bash basic set! 2"

@@ -3,6 +3,12 @@
 
 BASH_ALIASES_DIR=~/bash-aliases
 
+# bash basic
+. ${BASH_ALIASES_DIR}/bash-basic/bash-alias
+
+# bash prompt
+. ${BASH_ALIASES_DIR}/bash-prompt/bash-alias
+
 # bash scripts
 . ${BASH_ALIASES_DIR}/bash-scripts/bash-alias
 
