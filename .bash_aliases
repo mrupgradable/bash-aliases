@@ -6,3 +6,6 @@ BASH_ALIASES_DIR=~/bash-aliases
 # bash scripts
 . ${BASH_ALIASES_DIR}/bash-scripts/bash-alias
 
+# git
+. ${BASH_ALIASES_DIR}/git/bash-alias
+

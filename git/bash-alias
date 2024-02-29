@@ -1,0 +1,11 @@
+# git related
+
+# basic
+alias gs="git status"
+alias ga="git add ."
+alias gp="git push"
+alias gc="git commit -m $1"
+
+# git log
+alias gl="git log"
+alias glo="git log --oneline"
