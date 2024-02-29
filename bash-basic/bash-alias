@@ -8,4 +8,3 @@ BASH_BASIC_ALIASES_DIR="${BASH_ALIASES_DIR}/bash-basic"
 # bash ls
 . ${BASH_BASIC_ALIASES_DIR}/bash-ls
 
-echo "bash basic set! 2"
