@@ -2,7 +2,7 @@
 # copy this to top aliases file e.g. cp .bash_aliases ~/.bash_aliases
 
 # update bash aliases (on system if already present)
-alias update-bash-aliases="cp .bash_aliases ~/.bash_aliases"
+alias bash-update-aliases="cp .bash_aliases ~/.bash_aliases"
 
 
 BASH_ALIASES_DIR=~/bash-aliases
@@ -21,4 +21,7 @@ BASH_ALIASES_DIR=~/bash-aliases
 
 # git
 . ${BASH_ALIASES_DIR}/git/bash-alias
+
+# project
+. ${BASH_ALIASES_DIR}/project/bash-alias
 

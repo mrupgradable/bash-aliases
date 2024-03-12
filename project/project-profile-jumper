@@ -1,0 +1,9 @@
+# project: profile jumper 
+
+# something silly is going on ;) even if you use ${HOME} 
+PROJECT_PROFILE_JUMPER_DIR='~/projects/code/profile-jumper'
+
+alias profile-jumper.project='cd ~/projects/code/profile-jumper'
+
+alias profile-jumper.browser-extension.project='cd ~/projects/code/profile-jumper/browser-extension/profile-jumper'
+

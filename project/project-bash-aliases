@@ -1,0 +1,4 @@
+# project: bash aliases 
+
+alias bash-aliases.project='cd ~/bash-aliases'
+

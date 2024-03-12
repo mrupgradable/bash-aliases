@@ -1,0 +1,15 @@
+# top level link for this dir aliases
+#
+# !! 1. assumes BASH_ALIASES_DIR has already been set !!
+# !! 2. assumes this dir is bash-basic (check BASH_PROJECT_ALIASES_DIR) !!
+
+BASH_PROJECT_ALIASES_DIR="${BASH_ALIASES_DIR}/project"
+
+# TODO: read files in dir
+
+# bash aliases project
+. ${BASH_PROJECT_ALIASES_DIR}/project-bash-aliases
+
+# profile jumper project
+. ${BASH_PROJECT_ALIASES_DIR}/project-profile-jumper
+
