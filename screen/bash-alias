@@ -1,0 +1,4 @@
+# screen recording 
+
+alias screen-record='peek -b ffmpeg'
+

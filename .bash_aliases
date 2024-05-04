@@ -25,3 +25,7 @@ BASH_ALIASES_DIR=~/bash-aliases
 # project
 . ${BASH_ALIASES_DIR}/project/bash-alias
 
+# screen
+. ${BASH_ALIASES_DIR}/screen/bash-alias
+
+
