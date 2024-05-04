@@ -1,0 +1,9 @@
+# video related & audio
+
+# mp4 -> mov (video)
+alias video-transcode='ffmpeg -i $1 -c:v prores_ks -profile:v 3 -vendor apl0 -bits_per_mb 8000 -c:a copy $2'
+
+# ogg ->  wav (audio)
+alias audio-transcode='ffmpeg -i $1 -acodec pcm_s16le -ar 44100 $2'
+
+

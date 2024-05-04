@@ -28,4 +28,6 @@ BASH_ALIASES_DIR=~/bash-aliases
 # screen
 . ${BASH_ALIASES_DIR}/screen/bash-alias
 
+# video & audio
+. ${BASH_ALIASES_DIR}/video/bash-alias
 
