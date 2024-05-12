@@ -41,28 +41,30 @@ function _git_delete_branch {
 
 function _git_push_fork_branch {
   WORKING_BRANCH=$(git branch --show-current)
-  if [ ${WORKING_BRANCH} == 'master' ]
+  PARENT_BRANCH=${1:-master}
+  
+  if [ ${WORKING_BRANCH} == ${PARENT_BRANCH} ]
   then
     # show error if still on master
-    echo -e "\033[31m ERROR! \033[0m You're still on master! change to branch"
+    echo -e "\033[31m ERROR! \033[0m You're still on ${PARENT_BRANCH}! change to branch"
   else
     # push branch to origin (fork)
     echo -e "\033[33m PROGRESS... \033[0m attempting to push '${WORKING_BRANCH}' to fork"
     git push -u origin ${WORKING_BRANCH}
     echo -e "\033[32m SUCCESS! \033[0m '${WORKING_BRANCH}' pushed to fork"
     
-    # switch back to master
-    echo -e "\033[33m PROGRESS... \033[0m attempting to switch from '${WORKING_BRANCH}' to master"
-    git switch master
-    echo -e "\033[32m SUCCESS! \033[0m switched back to master"
+    # switch back to parent branch e.g. master
+    echo -e "\033[33m PROGRESS... \033[0m attempting to switch from '${WORKING_BRANCH}' to '${PARENT_BRANCH}'"
+    git switch ${PARENT_BRANCH}
+    echo -e "\033[32m SUCCESS! \033[0m switched back to '${PARENT_BRANCH}'"
     
     # get input y/N to delete branch
     _git_delete_branch ${WORKING_BRANCH}
     
     # pull the latest changes (switched to master already)
-    echo -e "\033[33m PROGRESS... \033[0m attempting to pull latest changes from master"
+    echo -e "\033[33m PROGRESS... \033[0m attempting to pull latest changes from '${PARENT_BRANCH}'"
     git pull
-    echo -e "\033[32m SUCCESS! \033[0m latest changed pulled from master"
+    echo -e "\033[32m SUCCESS! \033[0m latest changed pulled from '${PARENT_BRANCH}'"
   fi
 }
 
