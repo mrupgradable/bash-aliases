@@ -7,3 +7,5 @@ alias profile-jumper.project='cd ~/projects/code/profile-jumper'
 
 alias profile-jumper.browser-extension.project='cd ~/projects/code/profile-jumper/browser-extension/profile-jumper'
 
+alias profile-jumper.website='cd ~/projects/code/profile-jumper/website'
+
