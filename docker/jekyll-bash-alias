@@ -1,0 +1,4 @@
+# docker processes: jekyll
+
+alias d-jekyll-serve="docker run --rm -p 3000:4000 -v $(pwd):/srv/website -w /srv/website -it  kjuly/jekyll jekyll serve --watch --port 4000 --host 0.0.0.0"
+

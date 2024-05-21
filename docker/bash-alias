@@ -1,5 +1,7 @@
 # docker related
 
+BASH_DOCKER_ALIASES_DIR="${BASH_ALIASES_DIR}/docker"
+
 # basic
 alias di="docker images"
 alias dp="docker ps"
@@ -21,4 +23,7 @@ alias dv="docker volume ls"
 
 # docker networking
 alias dn-ips="docker ps -q | xargs docker inspect -f '{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"
+
+# docker contextual processes
+. ${BASH_DOCKER_ALIASES_DIR}/jekyll-bash-alias
 
