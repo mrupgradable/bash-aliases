@@ -16,3 +16,6 @@ alias dp-shell='function _docker_run_in() { docker exec -it $1 /bin/sh; unset -f
 alias dc-up="docker compose up"
 alias dc-down="docker compose down"
 
+# docker volumes
+alias dv="docker volume ls"
+
