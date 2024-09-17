@@ -1,0 +1,4 @@
+# ollama 
+
+OLLAMA_MODELS=/overflow/ai/models/ollama
+

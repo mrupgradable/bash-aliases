@@ -1,0 +1,11 @@
+# top level link for this dir aliases
+#
+# !! 1. assumes BASH_ALIASES_DIR has already been set !!
+# !! 2. assumes this dir is ai (check BASH_BASIC_ALIASES_DIR) !!
+
+AI_ALIASES_DIR="${BASH_ALIASES_DIR}/ai"
+
+# ollama
+. ${AI_ALIASES_DIR}/bash-ollama
+
+

@@ -7,6 +7,9 @@ alias bash-update-aliases="cp .bash_aliases ~/.bash_aliases"
 
 BASH_ALIASES_DIR=~/bash-aliases
 
+# ai 
+. ${BASH_ALIASES_DIR}/ai/bash-alias
+
 # bash basic
 . ${BASH_ALIASES_DIR}/bash-basic/bash-alias
 
