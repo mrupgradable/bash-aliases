@@ -1,4 +1,5 @@
 # ollama 
+export OLLAMA_MODELS=/overflow/ai/models/ollama
 
-OLLAMA_MODELS=/overflow/ai/models/ollama
+alias ai-local="ollama run llama3.1"
 
