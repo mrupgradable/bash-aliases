@@ -25,6 +25,9 @@ BASH_ALIASES_DIR=~/bash-aliases
 # git
 . ${BASH_ALIASES_DIR}/git/bash-alias
 
+# kubernetes
+. ${BASH_ALIASES_DIR}/kubernetes/bash-alias
+
 # project
 . ${BASH_ALIASES_DIR}/project/bash-alias
 
