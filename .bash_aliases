@@ -19,6 +19,9 @@ BASH_ALIASES_DIR=~/bash-aliases
 # bash scripts
 . ${BASH_ALIASES_DIR}/bash-scripts/bash-alias
 
+# devbox
+. ${BASH_ALIASES_DIR}/devbox/bash-alias
+
 # docker
 . ${BASH_ALIASES_DIR}/docker/bash-alias
 

@@ -1,0 +1,14 @@
+# top level link for this dir aliases
+#
+# !! 1. assumes BASH_ALIASES_DIR has already been set !!
+# !! 2. assumes this dir is ai (check BASH_BASIC_ALIASES_DIR) !!
+
+DEVBOX_ALIASES_DIR="${BASH_ALIASES_DIR}/devbox"
+
+# in project that have devbox config, init-hook these only (not globally)
+if [ -f devbox.json ]; then
+    eval "$(devbox shellenv --init-hook)"
+fi
+
+# TODO: update bash prompt to indicate DEVBOX (must work with git meta info)
+
