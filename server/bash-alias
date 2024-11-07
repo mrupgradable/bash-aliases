@@ -1,0 +1,11 @@
+# top level link for this dir aliases
+#
+# !! 1. assumes BASH_ALIASES_DIR has already been set !!
+# !! 2. assumes this dir is bash-basic (check BASH_SERVER_ALIASES_DIR) !!
+
+BASH_SERVER_ALIASES_DIR="${BASH_ALIASES_DIR}/server"
+
+# local servers
+. ${BASH_SERVER_ALIASES_DIR}/server-local
+
+

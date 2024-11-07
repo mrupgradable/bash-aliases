@@ -1,6 +1,6 @@
 # bash prompt colour
 
-USER='\[\033[38;5;10m\]\u\[$(tput sgr0)\]'
+LOGIN_USER='\[\033[38;5;10m\]\u\[$(tput sgr0)\]'
 
 AT_SEPERATOR='\[\033[38;5;15m\]@\[$(tput sgr0)\]'
 
@@ -19,4 +19,4 @@ parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-PS1="${USER}${AT_SEPERATOR}${HOST}${WORKING_DIR_PRE}${WORKING_DIR}${WORKING_DIR_END}${PROMPT_END}${GIT_BRANCH_PRE}\$(parse_git_branch)${GIT_BRANCH_END} "
+PS1="${LOGIN_USER}${AT_SEPERATOR}${HOST}${WORKING_DIR_PRE}${WORKING_DIR}${WORKING_DIR_END}${PROMPT_END}${GIT_BRANCH_PRE}\$(parse_git_branch)${GIT_BRANCH_END} "

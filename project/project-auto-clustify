@@ -1,0 +1,7 @@
+# project: auto clustify 
+ 
+PROJECT_AUTO_CLUSTIFY_JUMPER_DIR='~/projects/collaboration/server/contabo-kube-iac'
+
+alias auto-clustify.project='cd ~/projects/collaboration/server/contabo-kube-iac'
+
+

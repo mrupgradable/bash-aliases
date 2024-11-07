@@ -12,3 +12,4 @@ fi
 
 # TODO: update bash prompt to indicate DEVBOX (must work with git meta info)
 
+alias ds='devbox shell'
