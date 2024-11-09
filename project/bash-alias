@@ -10,6 +10,9 @@ BASH_PROJECT_ALIASES_DIR="${BASH_ALIASES_DIR}/project"
 # bash aliases project
 . ${BASH_PROJECT_ALIASES_DIR}/project-bash-aliases
 
+# automata project
+. ${BASH_PROJECT_ALIASES_DIR}/project-automata
+
 # profile jumper project
 . ${BASH_PROJECT_ALIASES_DIR}/project-profile-jumper
 
