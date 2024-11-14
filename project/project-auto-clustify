@@ -1,7 +1,5 @@
 # project: auto clustify 
  
-PROJECT_AUTO_CLUSTIFY_JUMPER_DIR='~/projects/collab/server/auto-clustify'
-
-alias auto-clustify.project='cd ~/projects/collab/server/auto-clustify'
+alias project.auto-clustify='cd ~/projects/collab/server/auto-clustify'
 
 

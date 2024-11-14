@@ -1,5 +1,17 @@
 # project: automata 
  
-alias automata.project='cd ~/projects/automata'
+alias project.automata='cd ~/projects/automata'
 
+# core
+alias project.automata.core='cd ~/projects/automata/core/automata-core'
+
+# data
+alias project.automata.data='cd ~/projects/automata/data'
+alias project.automata.data.fees='cd ~/projects/automata/data/automata-data-fees'
+alias project.automata.data.instruments='cd ~/projects/automata/data/automata-data-instruments'
+alias project.automata.data.trades='cd ~/projects/automata/data/automata-data-trades'
+alias project.automata.data.prices='cd ~/projects/automata/data/automata-data-prices'
+
+# trade
+alias project.automata.trade='cd ~/projects/automata/trade'
 

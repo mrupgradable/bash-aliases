@@ -12,4 +12,10 @@ fi
 
 # TODO: update bash prompt to indicate DEVBOX (must work with git meta info)
 
+# todo: would be better to research command autocomplete (any command)
+# todo: look into command below
+# source <(devbox completion bash)
+
+alias devbox.install='devbox install'
+alias devbox.shell='devbox shell'
 alias ds='devbox shell'

@@ -1,4 +1,4 @@
 # bash source 
 
-alias bash-re-source='source ~/.bashrc'
+alias bash.re-source='source ~/.bashrc'
 

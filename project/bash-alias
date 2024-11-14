@@ -13,6 +13,9 @@ BASH_PROJECT_ALIASES_DIR="${BASH_ALIASES_DIR}/project"
 # automata project
 . ${BASH_PROJECT_ALIASES_DIR}/project-automata
 
+# bot projects
+. ${BASH_PROJECT_ALIASES_DIR}/project-bot
+
 # profile jumper project
 . ${BASH_PROJECT_ALIASES_DIR}/project-profile-jumper
 
