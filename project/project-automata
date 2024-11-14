@@ -15,3 +15,9 @@ alias project.automata.data.prices='cd ~/projects/automata/data/automata-data-pr
 # trade
 alias project.automata.trade='cd ~/projects/automata/trade'
 
+# instrument
+alias project.automata.instrument='cd ~/projects/automata/instrument'
+alias project.automata.instrument.manager='cd ~/projects/automata/instrument/automata-instrument-manager'
+alias project.automata.instrument.service='cd ~/projects/automata/instrument/automata-instrument-service'
+
+
