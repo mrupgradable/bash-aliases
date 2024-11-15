@@ -17,7 +17,7 @@ alias project.automata.trade='cd ~/projects/automata/trade'
 
 # instrument
 alias project.automata.instrument='cd ~/projects/automata/instrument'
-alias project.automata.instrument.manager='cd ~/projects/automata/instrument/automata-instrument-manager'
-alias project.automata.instrument.service='cd ~/projects/automata/instrument/automata-instrument-service'
+alias project.automata.instrument.ui='cd ~/projects/automata/instrument/automata-ui-instrument'
+alias project.automata.instrument.service='cd ~/projects/automata/instrument/automata-service-instrument'
 
 

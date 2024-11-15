@@ -1,5 +1,5 @@
 # project: auto clustify 
  
-alias project.auto-clustify='cd ~/projects/collab/server/auto-clustify'
+alias project.server.auto-clustify='cd ~/projects/collab/server/auto-clustify'
 
 
