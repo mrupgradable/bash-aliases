@@ -2,6 +2,8 @@
 
 BASH_SCRIPTS_DIR=~/bash-scripts
 
+export PATH=${BASH_SCRIPTS_DIR}/net/:$PATH
+
 export PATH=${BASH_SCRIPTS_DIR}/web/:$PATH
 
 export PATH=${BASH_SCRIPTS_DIR}/window/:$PATH
