@@ -1,6 +1,6 @@
 # project: bots 
 
-alias project.discord.bot.todo='cd ~/projects/bot/discord/discord-todo-list-bot'
+alias project.bot.discord.todo='cd ~/projects/bot/discord/discord-todo-list-bot'
 
 # insert other bot projects
 
