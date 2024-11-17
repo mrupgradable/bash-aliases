@@ -13,15 +13,17 @@ alias project.automata.data.trades='cd ~/projects/automata/data/automata-data-tr
 alias project.automata.data.prices='cd ~/projects/automata/data/automata-data-prices'
 
 # repository
-# todo: might have a 'core/base' repo (core is better)
+alias project.automata.repo='cd ~/projects/automata/repository'
 alias project.automata.repo.instrument='cd ~/projects/automata/repository/automata-repository-instrument'
 
 # trade
 alias project.automata.trade='cd ~/projects/automata/trade'
 
 # service
+alias project.automata.service='cd ~/projects/automata/service'
 alias project.automata.service.instrument='cd ~/projects/automata/service/automata-service-instrument'
 
 # ui
+alias project.automata.ui='cd ~/projects/automata/ui'
 alias project.automata.ui.instrument='cd ~/projects/automata/ui/automata-ui-instrument'
 
