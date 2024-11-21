@@ -16,6 +16,9 @@ BASH_PROJECT_ALIASES_DIR="${BASH_ALIASES_DIR}/project"
 # bot projects
 . ${BASH_PROJECT_ALIASES_DIR}/project-bot
 
+# investor allure
+. ${BASH_PROJECT_ALIASES_DIR}/project-investor-allure
+
 # profile jumper project
 . ${BASH_PROJECT_ALIASES_DIR}/project-profile-jumper
 
