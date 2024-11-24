@@ -6,9 +6,12 @@ export PATH=${BASH_SCRIPTS_DIR}/machine/:$PATH
 
 export PATH=${BASH_SCRIPTS_DIR}/net/:$PATH
 
+export PATH=${BASH_SCRIPTS_DIR}/start/:$PATH
+
+export PATH=${BASH_SCRIPTS_DIR}/ssh/:$PATH
+
 export PATH=${BASH_SCRIPTS_DIR}/web/:$PATH
 
 export PATH=${BASH_SCRIPTS_DIR}/window/:$PATH
 
-export PATH=${BASH_SCRIPTS_DIR}/ssh/:$PATH
 
