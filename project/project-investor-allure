@@ -6,5 +6,5 @@ alias project.investor-allure.plan='cd ~/projects/investor-allure/investor-allur
 
 alias project.investor-allure.workers='cd ~/projects/investor-allure/investor-allure-workers'
 
-alias project.investor.allure.website='cd ~/projects/investor-allure/investor-allure-website'
+alias project.investor-allure.website='cd ~/projects/investor-allure/investor-allure-website'
 
