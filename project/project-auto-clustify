@@ -1,5 +1,7 @@
 # project: auto clustify 
  
-alias project.server.auto-clustify='cd ~/projects/collab/server/auto-clustify'
+alias project.auto-clustify.k8s='cd ~/projects/collab/server/auto-clustify'
+
+alias project.auto-clustify.gpu='cd ~/projects/server/auto-clustify/gpu-auto-clustify'
 
 

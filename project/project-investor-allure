@@ -5,6 +5,7 @@ alias project.investor-allure='cd ~/projects/investor-allure'
 alias project.investor-allure.plan='cd ~/projects/investor-allure/investor-allure-plan'
 
 alias project.investor-allure.media='cd ~/projects/investor-allure/investor-allure-media'
+alias project.investor-allure.media.compute.character='cd ~/projects/investor-allure/investor-allure-media/character/parts/pose/compute'
 
 alias project.investor-allure.workers='cd ~/projects/investor-allure/investor-allure-workers'
 
