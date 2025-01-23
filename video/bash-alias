@@ -6,4 +6,10 @@ alias video-transcode='ffmpeg -i $1 -c:v prores_ks -profile:v 3 -vendor apl0 -bi
 # ogg ->  wav (audio)
 alias audio-transcode='ffmpeg -i $1 -acodec pcm_s16le -ar 44100 $2'
 
+# Comfy Related
+alias comfy.activate='source venv/bin/activate'
+alias comfy.run='python main.py --listen=0.0.0.0 &'
+alias comfy.show='jobs'
+alias comfy.stop='kill %1'
+
 

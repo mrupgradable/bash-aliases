@@ -1,0 +1,5 @@
+# gpu
+alias ssh.gpu.cloud.clear=''
+alias ssh.gpu.cloud='ssh ubuntu@e.gpu.cloud'
+alias ping.gpu.cloud='ping e.gpu.cloud'
+

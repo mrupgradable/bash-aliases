@@ -8,4 +8,7 @@ BASH_SERVER_ALIASES_DIR="${BASH_ALIASES_DIR}/server"
 # local servers
 . ${BASH_SERVER_ALIASES_DIR}/server-local
 
+# cloud servers
+. ${BASH_SERVER_ALIASES_DIR}/server-cloud
+
 
