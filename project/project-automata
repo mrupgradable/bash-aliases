@@ -2,15 +2,18 @@
  
 alias project.automata='cd ~/projects/automata'
 
+# plan
+alias project.automata.plan='cd ~/projects/automata/automata-plan'
+
 # core
 alias project.automata.core='cd ~/projects/automata/core/automata-core'
 
 # data
 alias project.automata.data='cd ~/projects/automata/data'
-alias project.automata.data.fees='cd ~/projects/automata/data/automata-data-fees'
-alias project.automata.data.instruments='cd ~/projects/automata/data/automata-data-instruments'
-alias project.automata.data.trades='cd ~/projects/automata/data/automata-data-trades'
-alias project.automata.data.prices='cd ~/projects/automata/data/automata-data-prices'
+alias project.automata.data.fee='cd ~/projects/automata/data/automata-data-fee'
+alias project.automata.data.instrument='cd ~/projects/automata/data/automata-data-instrument'
+alias project.automata.data.trade='cd ~/projects/automata/data/automata-data-trade'
+alias project.automata.data.price='cd ~/projects/automata/data/automata-data-price'
 
 # repository
 alias project.automata.repo='cd ~/projects/automata/repository'
