@@ -1,11 +1,13 @@
 # servers: local
  
 # octal master
-alias ping.octal-master='ping octal-master.octal.castlenet.local'
-alias ssh.octal-master='ssh octal-master.octal.castlenet.local'
+alias ping.octal-master='ping master.octal.castlenet.local'
+alias ssh.octal-master='ssh ubuntu@master.octal.castlenet.local'
 
 # octal worker 01
-alias ping.octal-worker-01='ping octal-worker-01.octal.castlenet.local'
-alias ssh.octal-worker-01='ssh octal-worker-01.octal.castlenet.local'
+alias ping.octal-worker-01='ping worker-01.octal.castlenet.local'
+alias ssh.octal-worker-01='ssh ubuntu@worker-01.octal.castlenet.local'
 
-
+# octal worker 02
+alias ping.octal-worker-02='ping worker-02.octal.castlenet.local'
+alias ssh.octal-worker-02='ssh ubuntu@worker-02.octal.castlenet.local'
