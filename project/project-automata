@@ -2,8 +2,11 @@
  
 alias project.automata='cd ~/projects/automata'
 
-# design
+# design & planning
 alias project.automata.plan='cd ~/projects/automata/design'
+
+# cluster
+alias project.automata.cluster='cd ~/projects/automata/cluster/automata-cluster'
 
 # core
 alias project.automata.core='cd ~/projects/automata/core/automata-core'

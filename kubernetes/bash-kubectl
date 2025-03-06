@@ -4,3 +4,7 @@ source <(kubectl completion bash)
 alias k=kubectl
 complete -o default -F __start_kubectl k
 
+alias k.nodes.list="k get nodes"
+alias k.pods.list.all="k get pods -o wide --all-namespaces"
+
+alias k.port-forward.argocd="k port-forward svc/argocd-server 8443:443 -n argocd"
