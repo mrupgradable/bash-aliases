@@ -5,9 +5,8 @@
 
 BASH_PROJECT_ALIASES_DIR="${BASH_ALIASES_DIR}/project"
 
-# project bash-alias
-alias project.alias="cd ${BASH_PROJECT_ALIASES_DIR}"
-
+# project bash-alias (idiolect)
+alias project.bash-alias="cd ${BASH_PROJECT_ALIASES_DIR}"
 
 # bash aliases project
 . ${BASH_PROJECT_ALIASES_DIR}/project-bash-aliases
