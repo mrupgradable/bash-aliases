@@ -3,26 +3,26 @@
 BASH_DOCKER_ALIASES_DIR="${BASH_ALIASES_DIR}/docker"
 
 # basic
-alias di="docker images"
-alias dp="docker ps"
+alias docker.images="docker images"
+alias docker.processes="docker ps"
 
 # docker images
-alias di-del="docker image rm $1"
+alias docker.delete-image="docker image rm $1"
 
 # docker containers (a.k.a processes)
-alias dp-del="docker rm $1"
-alias dp-stop="docker container stop $1"
-alias dp-shell='function _docker_run_in() { docker exec -it $1 /bin/sh; unset -f _docker_run_in; }; _docker_run_in'
+alias docker.delete-process="docker rm $1"
+alias docker.stop-process="docker container stop $1"
+alias docker.shell='function _docker_run_in() { docker exec -it $1 /bin/sh; unset -f _docker_run_in; }; _docker_run_in'
 
 # docker compose
-alias dc-up="docker compose up"
-alias dc-down="docker compose down"
+alias docker.compose-up="docker compose up"
+alias docker.compose-down="docker compose down"
 
 # docker volumes
-alias dv="docker volume ls"
+alias docker.volume-list="docker volume ls"
 
 # docker networking
-alias dn-ips="docker ps -q | xargs docker inspect -f '{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"
+alias docker.net-inspect="docker ps -q | xargs docker inspect -f '{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"
 
 # docker contextual processes
 . ${BASH_DOCKER_ALIASES_DIR}/jekyll-bash-alias
