@@ -5,7 +5,9 @@
 
 BASH_PROJECT_ALIASES_DIR="${BASH_ALIASES_DIR}/project"
 
-# TODO: read files in dir
+# project bash-alias
+alias project.alias="cd ${BASH_PROJECT_ALIASES_DIR}"
+
 
 # bash aliases project
 . ${BASH_PROJECT_ALIASES_DIR}/project-bash-aliases
