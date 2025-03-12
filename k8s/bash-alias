@@ -5,6 +5,9 @@
 
 K8S_ALIASES_DIR="${BASH_ALIASES_DIR}/k8s"
 
+# cluster
+. ${K8S_ALIASES_DIR}/bash-cluster
+
 # kubectl
 . ${K8S_ALIASES_DIR}/bash-kubectl
 

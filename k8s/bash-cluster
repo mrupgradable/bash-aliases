@@ -1,0 +1,4 @@
+# cluster
+
+alias k.cluster.down="cd ~/bash-scripts/k8s && ./k8s.cluster.down.sh"
+alias k.cluster.up="cd ~/bash-scripts/k8s && ./k8s.cluster.up.sh"
