@@ -2,6 +2,8 @@
 
 BASH_SCRIPTS_DIR=~/bash-scripts
 
+export PATH=${BASH_SCRIPTS_DIR}/k8s/:$PATH
+
 export PATH=${BASH_SCRIPTS_DIR}/machine/:$PATH
 
 export PATH=${BASH_SCRIPTS_DIR}/net/:$PATH

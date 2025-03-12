@@ -3,9 +3,8 @@
 # !! 1. assumes BASH_ALIASES_DIR has already been set !!
 # !! 2. assumes this dir is ai (check BASH_BASIC_ALIASES_DIR) !!
 
-K8S_ALIASES_DIR="${BASH_ALIASES_DIR}/kubernetes"
+K8S_ALIASES_DIR="${BASH_ALIASES_DIR}/k8s"
 
 # kubectl
 . ${K8S_ALIASES_DIR}/bash-kubectl
-
 

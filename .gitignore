@@ -1,4 +1,5 @@
 # mega
 .megaignore
 
-
+# idea
+.idea
