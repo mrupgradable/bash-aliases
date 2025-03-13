@@ -12,4 +12,4 @@ alias k.pods.list.all="k get pods -o wide --all-namespaces"
 
 # port forwarding
 alias k.port-forward.argocd="k port-forward svc/argocd-server 8443:443 -n argocd"
-alias k.port-forward.redis="k port-forward service/redis-server 6379:6379 -n automata"
+alias k.port-forward.redis="k port-forward service/redis-server 7379:6379 -n automata"
