@@ -31,6 +31,6 @@ alias project.automata.service.instrument='cd ~/projects/automata/service/automa
 
 # ui
 alias project.automata.ui='cd ~/projects/automata/ui'
-alias project.automata.ui.website='cd ~/projects/automata/ui/automata-website'
+alias project.automata.website='cd ~/projects/automata/ui/automata-website'
 alias project.automata.ui.instrument='cd ~/projects/automata/ui/automata-ui-instrument'
 
