@@ -11,3 +11,5 @@ BASH_BASIC_ALIASES_DIR="${BASH_ALIASES_DIR}/bash-basic"
 # bash source
 . ${BASH_BASIC_ALIASES_DIR}/bash-source
 
+# disable bracketed copy & paste
+bind 'set enable-bracketed-paste off'
