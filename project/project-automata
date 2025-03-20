@@ -24,6 +24,7 @@ alias project.automata.repo.instrument='cd ~/projects/automata/repository/automa
 
 # trade
 alias project.automata.trade='cd ~/projects/automata/trade'
+alias project.automata.trader='cd ~/projects/automata/trade/automata-trader'
 
 # service
 alias project.automata.service='cd ~/projects/automata/service'
