@@ -1,5 +1,9 @@
 # servers: local
  
+# octal operator
+alias ping.octal-operator='ping operator.octal.castlenet.local'
+alias ssh.octal-operator='ssh ubuntu@operator.octal.castlenet.local'
+
 # octal master
 alias ping.octal-master='ping master.octal.castlenet.local'
 alias ssh.octal-master='ssh ubuntu@master.octal.castlenet.local'
