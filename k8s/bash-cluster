@@ -1,4 +1,1 @@
 # cluster
-
-alias octal.cluster.down="cd ~/bash-scripts/k8s && ./k8s.cluster.down.sh"
-alias octal.cluster.up="cd ~/bash-scripts/k8s && ./k8s.cluster.up.sh"

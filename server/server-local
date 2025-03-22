@@ -1,5 +1,9 @@
 # servers: local
- 
+
+# operate up/down 
+alias octal.cluster.down="cd ~/bash-scripts/server && ./octal.cluster.down.sh"
+alias octal.cluster.up="cd ~/bash-scripts/server && ./octal.cluster.up.sh"
+
 # octal operator
 alias ping.octal-operator='ping operator.octal.castlenet.local'
 alias ssh.octal-operator='ssh ubuntu@operator.octal.castlenet.local'
