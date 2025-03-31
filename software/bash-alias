@@ -1,0 +1,11 @@
+# top level link for this dir aliases
+#
+# !! 1. assumes BASH_ALIASES_DIR has already been set !!
+
+BASH_SOFTWARE_ALIASES_DIR="${BASH_ALIASES_DIR}/software"
+
+# jdk
+. ${BASH_SOFTWARE_ALIASES_DIR}/software-jdk
+
+
+

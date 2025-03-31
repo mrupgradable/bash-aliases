@@ -1,0 +1,4 @@
+# jdk software
+
+export JAVA_HOME=~/software/jdk/current
+export PATH=$JAVA_HOME/bin:$PATH

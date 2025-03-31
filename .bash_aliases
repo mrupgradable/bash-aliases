@@ -29,7 +29,7 @@ BASH_ALIASES_DIR=~/bash-aliases
 . ${BASH_ALIASES_DIR}/git/bash-alias
 
 # kubernetes
-. ${BASH_ALIASES_DIR}/kubernetes/bash-alias
+. ${BASH_ALIASES_DIR}/k8s/bash-alias
 
 # project
 . ${BASH_ALIASES_DIR}/project/bash-alias
@@ -39,6 +39,9 @@ BASH_ALIASES_DIR=~/bash-aliases
 
 # server
 . ${BASH_ALIASES_DIR}/server/bash-alias
+
+# software 
+. ${BASH_ALIASES_DIR}/software/bash-alias
 
 # video & audio
 . ${BASH_ALIASES_DIR}/video/bash-alias
