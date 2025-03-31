@@ -10,5 +10,6 @@ BASH_SOFTWARE_ALIASES_DIR="${BASH_ALIASES_DIR}/software"
 # scala sdk
 . ${BASH_SOFTWARE_ALIASES_DIR}/software-sdk
 
-
+# go
+. ${BASH_SOFTWARE_ALIASES_DIR}/software-go
 

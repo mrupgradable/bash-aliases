@@ -1,0 +1,5 @@
+# go software
+
+export GO_HOME=~/software/go/current
+export GOROOT=$GO_HOME
+export PATH=$GO_HOME/bin:$PATH
