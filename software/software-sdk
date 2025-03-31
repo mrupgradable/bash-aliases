@@ -1,0 +1,4 @@
+# sdk software
+
+export SCALA_HOME=~/software/sdk/current
+export PATH=$SCALA_HOME/bin:$PATH
