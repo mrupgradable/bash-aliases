@@ -1,0 +1,4 @@
+# sbt software
+
+export SBT_HOME=~/software/sbt/current
+export PATH=$SBT_HOME/bin:$PATH

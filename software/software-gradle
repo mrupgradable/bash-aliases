@@ -1,0 +1,4 @@
+# gradle software
+
+export GRADLE_HOME=~/software/gradle/current
+export PATH=$GRADLE_HOME/bin:$PATH
