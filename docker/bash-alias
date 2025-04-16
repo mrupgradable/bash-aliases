@@ -27,3 +27,6 @@ alias docker.net-inspect="docker ps -q | xargs docker inspect -f '{{.Name}} - {{
 # docker contextual processes
 . ${BASH_DOCKER_ALIASES_DIR}/jekyll-bash-alias
 
+# help
+alias docker.help.start-all="echo 'docker start \$(docker ps -a -q)'"
+alias docker.help.stop-all="echo 'docker stop \$(docker ps -q)'"
