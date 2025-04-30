@@ -1,0 +1,8 @@
+# project: ai 
+ 
+alias project.ai='cd ~/projects/ai'
+
+# page ai
+alias project.ai.page='cd ~/projects/ai/page-ai'
+
+
