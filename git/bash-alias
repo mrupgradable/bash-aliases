@@ -4,9 +4,14 @@
 alias gs="git status"
 alias ga="git add ."
 alias gp="git push"
-alias gb="git branch -l"
-alias gbc="git checkout -b $1"
-alias gb-del="git branch -d $1"
+alias gr="git rm $1"
+
+# branch related
+alias gb.list="git branch -l"
+alias gb.checkout="git checkout -b $1"
+alias gb.checkout-main="git checkout main"
+alias gb.del="git branch -d $1"
+alias gb.push="git push origin $1"
 
 # git commit
 alias gc="git commit -m $1"
