@@ -3,6 +3,11 @@
 
 CODE_ALIASES_DIR="${BASH_ALIASES_DIR}/code"
 
+# node + mac are not greatest friends when using certs
+if [[ "$(uname)" == "Darwin" ]]; then
+    export NODE_TLS_REJECT_UNAUTHORIZED=0
+fi
+
 # node related (assumes bare metal → not run in a container) & relative to working dir
 alias node.deps.install='npm install'
 alias node.code.run='npm run dev'
