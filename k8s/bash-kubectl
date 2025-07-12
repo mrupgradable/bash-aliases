@@ -1,12 +1,14 @@
 # kubectl 
 
-source <(kubectl completion bash)
-alias k=kubectl
-complete -o default -F __start_kubectl k
-
-# nodes
-alias k.nodes.list="k get nodes"
-
-# pods
-alias k.pods.list.all="k get pods -o wide --all-namespaces"
-
+# only when kubectl is available
+if command -v kubectl >/dev/null 2>&1; then
+    source <(kubectl completion bash)
+    alias k=kubectl
+    complete -o default -F __start_kubectl k
+    
+    # nodes
+    alias k.nodes.list="k get nodes"
+    
+    # pods
+    alias k.pods.list.all="k get pods -o wide --all-namespaces"
+fi
