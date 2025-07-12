@@ -1,0 +1,10 @@
+# top level link for this dir aliases
+# used mainly → when on mac
+
+CODE_ALIASES_DIR="${BASH_ALIASES_DIR}/code"
+
+# node related (assumes bare metal → not run in a container) & relative to working dir
+alias node.deps.install='npm install'
+alias node.code.run='npm run dev'
+alias node.code.build='npm run build'
+
