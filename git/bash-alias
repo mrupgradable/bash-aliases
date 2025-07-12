@@ -6,6 +6,9 @@ alias ga="git add ."
 alias gp="git push"
 alias gr="git rm $1"
 
+# reset
+alias g.reset="git reset $1"
+
 # branch related
 alias gb.list="git branch -l"
 alias gb.checkout="git checkout -b $1"
