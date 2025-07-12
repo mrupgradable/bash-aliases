@@ -12,4 +12,6 @@ BASH_BASIC_ALIASES_DIR="${BASH_ALIASES_DIR}/bash-basic"
 . ${BASH_BASIC_ALIASES_DIR}/bash-source
 
 # disable bracketed copy & paste
-bind 'set enable-bracketed-paste off'
+if command -v bind >/dev/null 2>&1; then
+    bind 'set enable-bracketed-paste off'
+fi
